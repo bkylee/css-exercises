@@ -1,10 +1,9 @@
-.odd,
-.special {
+.odd {
 background-color: lightpink;
 font-family: Verdana, DejaVu sans, sans-serif;
 }
 
-.special{
+.cool {
     font-size: 24px;
 }
 
