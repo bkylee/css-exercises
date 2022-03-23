@@ -9,11 +9,6 @@ body {
   flex-direction: column;
 }
 
-.page {
-
-  justify-content: space-between;
-}
-
 img {
   width: 600px;
 }
