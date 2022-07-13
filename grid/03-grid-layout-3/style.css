@@ -33,22 +33,20 @@
 
 .menu {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
 }
 
 .menu ul {
   display: grid;
-  grid-template-rows: 1;
   grid-template-columns: repeat(4,4fr);
   grid-column: span/-1;
+  justify-items: right;
+  align-items: center;
 }
 
 .menu ul,
 .menu li {
-  justify-self: stretch;
-  display: grid;
   font-size: 16px;
-  grid-column: 1/-1;
+  list-style-type: none;
 }
 
 .sidebar {
@@ -86,17 +84,18 @@
   background-color: #FF7755;
   grid-column: 2/-1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul {
-  display: inline-grid;
+  display: grid;
+  grid-template-columns: repeat(3,3fr);
+  grid-column: span/-1;
+  list-style-type: none;
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
-  display: inline-grid;
 }
 
 .article {
